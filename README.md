@@ -1,6 +1,10 @@
 #link to heroku:
 
-#https://still-inlet-15569.herokuapp.com/
+#https://final-project-ki.herokuapp.com/
+
+#link to portfolio:
+
+https://kishii55.github.io/
 
 #I was able to create my own API for this app pulling the data i wanted from riot games ddragon add-champion
 
