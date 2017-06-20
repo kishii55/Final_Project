@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>League</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script type="text/javascript" src="lib/angular.js"></script>
+  <script type="text/javascript" src="lib/ui-bootstrap.js"></script>
+</head>
+<body>
+
+    <div id="page" class="container">
+
+        <div id="header">
+            <div id="logo">
+                <img src="lib/pic02.png" alt="" />
+                <h1><a href="#">League of Legends Champions</a></h1>
+                <span>Champion Selector</span>
+            </div>
+            <div id="menu">
+                <ul>
+                  <li><a href="#!/">League of Legends Champion Tracker Main Page</a>
+                  <li><a href="#!/tracker">Tracker</a></li>
+                  <li><a href="#!/allChampions">All Champions</a></li>
+                </ul>
+            </div>
+        <!-- CLOSES HEADER -->
+        </div>
+
+        <div id="main">
+            <div id="banner">
+                <img src="lib/pic01.jpg" alt="" class="image-banner" />
+            </div>
+
+            <hr>
+
+              <div id="show">
+                <ng-view></ng-view>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+          <div id="copyright">
+              <span>&copy; Kylan ~ Final Project
+              <span>for <a href="https://generalassemb.ly/" rel="nofollow">GA REMOTE WDI</a>.</span>
+          </div>
+
+      <!-- CLOSES MAIN     -->
+        </div>
+
+    <!-- CLOSES CONTAINER     -->
+    </div>
+
+  <script type="text/javascript" src="lib/angular-route.js"></script>
+  <script type="text/javascript" src="factories/championFactories.js"></script>
+  <script type="text/javascript" src="champions/champions.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="allChampions/allChampions.js"></script>
+
+</body>
+</html>

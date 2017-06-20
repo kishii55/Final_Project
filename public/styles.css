@@ -1,0 +1,499 @@
+
+/*.footer {
+  height: 70px;
+  color: #eaeceb;
+  background-color: #01278b;
+  left: 0;
+  right: 0;
+  width: 100%;
+}*/
+
+/*img {
+  width: 90px;
+}
+
+.champion-image {
+  margin-bottom: 5px;
+}
+
+.add-champion {
+  margin-bottom: 30px;
+}
+
+.delete-note {
+  display: inline-block;
+  float: right;
+}*/
+#show {
+    text-align: center;
+}
+
+/*=============================================
+=============================================*/
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #202020;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #444444;
+    background-image:url("http://elostart.net/wp-content/uploads/2015/11/league_of_legends-vs-game-background-1600x900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #333333;
+}
+
+p, ol, ul
+{
+    margin-top: 0;
+}
+
+ol, ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+p
+{
+    line-height: 180%;
+}
+
+a
+{
+    color: #2980b9;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.container
+{
+    overflow: hidden;
+    margin: 0em auto;
+    width: 1700px;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.image-banner
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+    border: .3em solid black;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header
+{
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 3em 0em;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#logo h1
+{
+    display: block;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.3);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.5);
+}
+
+#logo img
+{
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu {
+    max-height:
+}
+
+#menu li
+{
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#menu li a, #menu li span
+{
+    display: block;
+    padding: 2em 1.5em;
+    text-align: center;
+    text-decoration:  none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+}
+
+/*#menu .current_page_item a
+{
+    background: #2980b9;
+    color: rgba(255,255,255,1);
+}*/
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+    margin-bottom: 4em;
+}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#page
+{
+    background: #2a2a2a;
+}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+#main
+{
+    overflow: hidden;
+    float: right;
+    width: 800px;
+    padding: 3em 50px 5em 50px;
+    background: #FFF;
+    /*border-top: 6px solid #2980b9;*/
+    text-align: center;
+}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+#featured
+{
+    overflow: hidden;
+    margin-bottom: 3em;
+    padding-top: 5em;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+    overflow: hidden;
+    padding: 5em 0em;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    top: 100%;
+}
+
+#copyright span
+{
+    display: block;
+    letter-spacing: 0.20em;
+    line-height: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(0,0,0,0.7);
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color: rgba(0,0,0,0.9);
+}
+
+/*********************************************************************************/
+/* Champion Images                                                                 */
+/*********************************************************************************/
+
+.champion_img
+{
+    display: inline-block;
+    padding: .5em;
+}
+
+/*********************************************************************************/
+/* Modal                                                               */
+/*********************************************************************************/
+
+
+.login-modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  overflow: auto; }
+
+.inner-modal {
+  background-color: white;
+  height: 75%;
+  width: 75%;
+  border-radius: 3px;
+  margin: 5% auto;
+  text-align: center;
+  box-shadow: 6px 5px 20px 0px #27262f; }
+
+  /*===============================================================================
+  ===============================================================================*/
+  @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400);
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    background: #111 url(https://codepen.io/images/classy_fabric.png);
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
+  body {
+    padding: 20px;
+  }
+
+  .timer-group {
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+  }
+
+  .timer {
+    border-radius: 50%;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    width: 100px;
+  }
+
+  .timer:after {
+    background: #111 url(https://codepen.io/images/classy_fabric.png);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 80px;
+    left: 10px;
+    position: absolute;
+    width: 80px;
+    top: 10px;
+  }
+
+  .timer .hand {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+  }
+
+  .timer .hand span {
+    border: 50px solid rgba(0, 255, 255, .4);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(225deg);
+    width: 0;
+  }
+
+  .timer .hand:first-child {
+    transform: rotate(180deg);
+  }
+
+  .timer .hand span {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .timer .hand:first-child span {
+    animation-name: spin1;
+  }
+
+  .timer .hand:last-child span {
+    animation-name: spin2;
+  }
+
+  .timer.hour {
+    background: rgba(0, 0, 0, .3);
+    height: 400px;
+    left: 0;
+    width: 400px;
+    top: 0;
+  }
+
+  .timer.hour .hand span {
+    animation-duration: 3600s;
+    border-top-color: rgba(255, 0, 255, .4);
+    border-right-color: rgba(255, 0, 255, .4);
+    border-width: 200px;
+  }
+
+  .timer.hour:after {
+    height: 360px;
+    left: 20px;
+    width: 360px;
+    top: 20px;
+  }
+
+  .timer.minute {
+    background: rgba(0, 0, 0, .2);
+    height: 350px;
+    left: 25px;
+    width: 350px;
+    top: 25px;
+  }
+
+  .timer.minute .hand span {
+    animation-duration: 60s;
+    border-top-color: rgba(0, 255, 255, .4);
+    border-right-color: rgba(0, 255, 255, .4);
+    border-width: 175px;
+  }
+
+  .timer.minute:after {
+    height: 310px;
+    left: 20px;
+    width: 310px;
+    top: 20px;
+  }
+
+  .timer.second {
+    background: rgba(0, 0, 0, .2);
+    height: 300px;
+    left: 50px;
+    width: 300px;
+    top: 50px;
+  }
+
+  .timer.second .hand span {
+    animation-duration: 1s;
+    border-top-color: rgba(255, 255, 255, .15);
+    border-right-color: rgba(255, 255, 255, .15);
+    border-width: 150px;
+  }
+
+  .timer.second:after {
+    height: 296px;
+    left: 2px;
+    width: 296px;
+    top: 2px;
+  }
+
+  .face {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    height: 296px;
+    left: 52px;
+    padding: 165px 40px 0;
+    position: absolute;
+    width: 296px;
+    text-align: center;
+    top: 52px;
+  }
+
+  .face h2 {
+    font-weight: 300;
+  }
+
+  .face p {
+    border-radius: 20px;
+    font-size: 76px;
+    font-weight: 400;
+    position: absolute;
+    top: 17px;
+    width: 260px;
+    left: 20px;
+  }
+
+  @keyframes spin1 {
+    0% {
+      transform: rotate(225deg);
+    }
+    50% {
+      transform: rotate(225deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+
+  @keyframes spin2 {
+    0% {
+      transform: rotate(225deg);
+    }
+    50% {
+      transform: rotate(405deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
