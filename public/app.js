@@ -13,6 +13,7 @@ app.config(function($routeProvider, $httpProvider) {
   })
   .when('/allChampions', {
     templateUrl: 'allChampions/allChampions.html',
+    controller: 'allController'
   })
   .otherwise({
     redirectTo: '/'

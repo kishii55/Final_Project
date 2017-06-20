@@ -1,4 +1,10 @@
 
+var allController = function ($scope){
+    $scope.imageSource = 'http://ddragon.leagueoflegends.com/cdn/7.11.1/img/champion/'
+};
+
+// =========================================
+// =========================================
   var defaults = {}
   , one_second = 1000
   , one_minute = one_second * 60

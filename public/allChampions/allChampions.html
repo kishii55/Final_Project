@@ -16,3 +16,11 @@
     <p id="lazy">00:00:00</p>
   </div>
 </div>
+
+
+<!-- =========================================
+========================================= -->
+
+<div ng-controller='allController' class="champion_img" ng-repeat='champion in allController.champion_data'>
+    <img ng-src="{{imageSource.champion.image.full}}"><br>
+</div>
