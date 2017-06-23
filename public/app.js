@@ -1,6 +1,6 @@
 console.log('app.js loaded');
 
-var app = angular.module('app', ['champions', 'ngRoute', 'ui.bootstrap']);
+var app = angular.module('app', ['champions', 'allChampions', 'ngRoute', 'ui.bootstrap']);
 
 app.config(function($routeProvider, $httpProvider) {
   $routeProvider
@@ -12,8 +12,7 @@ app.config(function($routeProvider, $httpProvider) {
     controller: 'ChampionsController'
   })
   .when('/allChampions', {
-    templateUrl: 'allChampions/allChampions.html',
-    controller: 'allController'
+    templateUrl: 'allChampions/allChampions.html'
   })
   .otherwise({
     redirectTo: '/'

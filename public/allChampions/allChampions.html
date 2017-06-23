@@ -12,7 +12,7 @@
     <div class="hand"><span></span></div>
   </div>
   <div class="face">
-    <h2>Selection Phase Timer</h2>
+    <h2>Selection Phase Timer (Under Construction)</h2>
     <p id="lazy">00:00:00</p>
   </div>
 </div>
@@ -21,6 +21,12 @@
 <!-- =========================================
 ========================================= -->
 
-<div ng-controller='allController' class="champion_img" ng-repeat='champion in allController.champion_data'>
-    <img ng-src="{{imageSource.champion.image.full}}"><br>
+<div ng-controller="allController">
+
+    <div class="champion_img" ng-repeat="champion in allController.champion_data">
+
+        <img ng-src="http://ddragon.leagueoflegends.com/cdn/7.12.1/img/champion/{{champion.image.full}}"/>
+
+    </div>
+
 </div>
